@@ -46,7 +46,7 @@ export const App = () => {
           }}
           type="button"
           className={
-            sortField === SORT_FIELD_ALPHABETICALLY && !isReversed
+            sortField === SORT_FIELD_ALPHABETICALLY
               ? 'button is-info'
               : 'button is-info is-light'
           }
@@ -61,7 +61,7 @@ export const App = () => {
           }}
           type="button"
           className={
-            sortField === SORT_FIELD_LENGTH && !isReversed
+            sortField === SORT_FIELD_LENGTH
               ? 'button is-info'
               : 'button is-info is-light'
           }
